@@ -18,6 +18,7 @@ html{
 .header {
     height: 100px;
     margin-bottom: 40px;
+    width: 100%;
 
 }
 
@@ -68,8 +69,8 @@ nav li{
 #About,#project-id{
     width: 100%;
     display: flex;
-    border: 1px solid black;
     height: 450px;
+    border: 1px solid black;
 }
 
 .AboutImage img{
@@ -121,7 +122,7 @@ a{
         .project-card{
             width: 300px; 
             margin: 20px;
-            padding: 20px;
+            padding: 40px;
             border: 1px solid #ccc;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -129,6 +130,7 @@ a{
         }
         #project-id h3{
             font-size: 25px;
+            margin: 35px;
         }
         #project-id p{
             font-size: 20px;
@@ -142,4 +144,30 @@ a{
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+        #contact h2{
+            font-size: 30px;
+            text-align: center;
+            color: brown;
+            padding: 20px;
+        }
+        #contact p{
+            font-size: 25px;
+            margin-left: 35px;
+        }
+        .social-links a{
+            font-size: 32px;
+            text-align: center;
+            margin-right: 10px;
+            display: inline-block;
+            color: black;
+            margin-left: 50px;
+        }
+        .social-links{
+            margin-top: 20px;
+        }
+        footer p{
+            font-size: 25px;
+            text-align: center;
+            color: brown;
         }
