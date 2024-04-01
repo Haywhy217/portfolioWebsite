@@ -48,7 +48,6 @@ nav li a {
     height: 100vh;
     display: flex;
     width: 100%;
-    border: 1px solid black;
     overflow: hidden;
 }
 .HeroImage img{
@@ -91,7 +90,6 @@ nav li a {
     height: 100vh;
     display: flex;
     width: 100%;
-    border: 1px solid black;
     overflow: hidden;
     max-width: 100%;
     box-sizing: border-box;
@@ -130,7 +128,6 @@ header h2{
     height: 100vh;
     display: flex;
     width: 100%;
-    border: 1px solid black;
     overflow: hidden;
     max-width: 100%;
     box-sizing: border-box;
